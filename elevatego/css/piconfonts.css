@@ -1,0 +1,3216 @@
+@font-face {
+	font-family: 'picons_thin';
+	src: url('../fonts/picons_thin.eot');
+	src: url('../fonts/picons_thin.eot') format('embedded-opentype'),
+	url('../fonts/picons_thin.ttf') format('truetype'),
+	url('../fonts/picons_thin.woff') format('woff'),
+	url('../fonts/picons_thin.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.picon {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'picons_thin' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	vertical-align: middle;
+	position: relative;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.picon-car:before {
+	content: "\e900";
+}
+.picon-chevron-down:before {
+	content: "\e901";
+}
+.picon-chevron-left:before {
+	content: "\e902";
+}
+.picon-chevron-right:before {
+	content: "\e903";
+}
+.picon-chevron-up:before {
+	content: "\e904";
+}
+.picon-circlearrow-down:before {
+	content: "\e905";
+}
+.picon-circlearrow-up:before {
+	content: "\e906";
+}
+.picon-large-cross:before {
+	content: "\e907";
+}
+.picon-large-tick:before {
+	content: "\e908";
+}
+.picon-zerodollars:before {
+	content: "\e909";
+}
+.picon-0001-compose-write-pencil-new:before {
+	content: "\e90a";
+}
+.picon-0002-write-pencil-new-edit:before {
+	content: "\e90b";
+}
+.picon-0003-write-pencil-new-edit:before {
+	content: "\e90c";
+}
+.picon-0004-pencil-ruler-drawing:before {
+	content: "\e90d";
+}
+.picon-0005-write-pen-handwriting-signing:before {
+	content: "\e90e";
+}
+.picon-0006-book-writing-reading-read-manual:before {
+	content: "\e90f";
+}
+.picon-0007-book-reading-read-bookmark:before {
+	content: "\e910";
+}
+.picon-0008-book-reading-read-manual:before {
+	content: "\e911";
+}
+.picon-0009-book-reading-read-manual:before {
+	content: "\e912";
+}
+.picon-0010-newspaper-reading-news:before {
+	content: "\e913";
+}
+.picon-0011-reading-glasses:before {
+	content: "\e914";
+}
+.picon-0012-notebook-paper-certificate:before {
+	content: "\e915";
+}
+.picon-0013-notebook-paper:before {
+	content: "\e916";
+}
+.picon-0014-notebook-paper-todo:before {
+	content: "\e917";
+}
+.picon-0015-fountain-pen:before {
+	content: "\e918";
+}
+.picon-0016-bookmarks-reading-book:before {
+	content: "\e919";
+}
+.picon-0017-office-archive:before {
+	content: "\e91a";
+}
+.picon-0018-office-trash-bin:before {
+	content: "\e91b";
+}
+.picon-0019-mobile-iphone:before {
+	content: "\e91c";
+}
+.picon-0020-ipad-reading-mobile:before {
+	content: "\e91d";
+}
+.picon-0021-calendar-month-day-planner:before {
+	content: "\e91e";
+}
+.picon-0022-calendar-month-day-planner:before {
+	content: "\e91f";
+}
+.picon-0023-calendar-month-day-planner-events:before {
+	content: "\e920";
+}
+.picon-0024-calendar-month-day-planner-events:before {
+	content: "\e921";
+}
+.picon-0025-alarm-clock-ringer-time-morning:before {
+	content: "\e922";
+}
+.picon-0026-time-watch-clock:before {
+	content: "\e923";
+}
+.picon-0027-stopwatch-timer-running-time:before {
+	content: "\e924";
+}
+.picon-0028-time-watch-clock-wall:before {
+	content: "\e925";
+}
+.picon-0029-time-watch-clock-wall:before {
+	content: "\e926";
+}
+.picon-0030-wrist-watch-clock-time:before {
+	content: "\e927";
+}
+.picon-0031-pin-bookmark:before {
+	content: "\e928";
+}
+.picon-0032-flag:before {
+	content: "\e929";
+}
+.picon-0033-search-find-zoom:before {
+	content: "\e92a";
+}
+.picon-0034-search-find-zoom:before {
+	content: "\e92b";
+}
+.picon-0035-bookmark-tag:before {
+	content: "\e92c";
+}
+.picon-0036-share-facebook-social:before {
+	content: "\e92d";
+}
+.picon-0037-smiley-happy-like-face:before {
+	content: "\e92e";
+}
+.picon-0038-smiley-neutral-face:before {
+	content: "\e92f";
+}
+.picon-0039-smiley-sad-face-unhappy:before {
+	content: "\e930";
+}
+.picon-0040-exit-logout-door-emergency-outside:before {
+	content: "\e931";
+}
+.picon-0041-filter-funnel:before {
+	content: "\e932";
+}
+.picon-0042-attachment:before {
+	content: "\e933";
+}
+.picon-0043-eye-visibility-show-visible:before {
+	content: "\e934";
+}
+.picon-0044-eye-visibility-hide-invisible:before {
+	content: "\e935";
+}
+.picon-0045-home-house:before {
+	content: "\e936";
+}
+.picon-0046-home-house:before {
+	content: "\e937";
+}
+.picon-0047-home-flat:before {
+	content: "\e938";
+}
+.picon-0048-factory-work:before {
+	content: "\e939";
+}
+.picon-0049-settings-panel-equalizer-preferences:before {
+	content: "\e93a";
+}
+.picon-0050-settings-panel-equalizer-preferences:before {
+	content: "\e93b";
+}
+.picon-0051-settings-gear-preferences:before {
+	content: "\e93c";
+}
+.picon-0052-settings-gears-preferences-gearbox:before {
+	content: "\e93d";
+}
+.picon-0053-settings-tools-pipe:before {
+	content: "\e93e";
+}
+.picon-0054-settings-tools-configuration-preferences:before {
+	content: "\e93f";
+}
+.picon-0055-settings-tools-configuration-preferences:before {
+	content: "\e940";
+}
+.picon-0056-bin-trash-recycle-delete-garbage-empty:before {
+	content: "\e941";
+}
+.picon-0057-bin-trash-recycle-delete-garbage-full:before {
+	content: "\e942";
+}
+.picon-0058-bin-trash-recycle-delete-garbage:before {
+	content: "\e943";
+}
+.picon-0059-error-warning-danger-stop:before {
+	content: "\e944";
+}
+.picon-0060-error-warning-danger-stop-delete-exit:before {
+	content: "\e945";
+}
+.picon-0061-error-warning-alert-attention:before {
+	content: "\e946";
+}
+.picon-0062-unable-unavailable-error:before {
+	content: "\e947";
+}
+.picon-0063-text-line-view:before {
+	content: "\e948";
+}
+.picon-0064-bullet-list-view:before {
+	content: "\e949";
+}
+.picon-0065-bullet-list-view:before {
+	content: "\e94a";
+}
+.picon-0066-grid-view:before {
+	content: "\e94b";
+}
+.picon-0067-line-thumb-view:before {
+	content: "\e94c";
+}
+.picon-0068-text-image-article-view:before {
+	content: "\e94d";
+}
+.picon-0069-box-load-package-module:before {
+	content: "\e94e";
+}
+.picon-0069a-menu-hambuger:before {
+	content: "\e94f";
+}
+.picon-0070-paper-role:before {
+	content: "\e950";
+}
+.picon-0071-document-file-paper:before {
+	content: "\e951";
+}
+.picon-0072-document-file-paper-text:before {
+	content: "\e952";
+}
+.picon-0073-documents-files-paper-text-archive-copy:before {
+	content: "\e953";
+}
+.picon-0074-document-file-delete-remove-error:before {
+	content: "\e954";
+}
+.picon-0075-document-file-paper-text-article-blog-template:before {
+	content: "\e955";
+}
+.picon-0076-document-file-zip-archive-compressed-rar:before {
+	content: "\e956";
+}
+.picon-0077-document-file-pdf-adobe-acrobat:before {
+	content: "\e957";
+}
+.picon-0078-document-file-word-office-doc-text:before {
+	content: "\e958";
+}
+.picon-0079-document-file-cloud-sync-backup:before {
+	content: "\e959";
+}
+.picon-0080-file-code-programming-dev-binary:before {
+	content: "\e95a";
+}
+.picon-0081-video-movie-file-player:before {
+	content: "\e95b";
+}
+.picon-0082-image-photo-file:before {
+	content: "\e95c";
+}
+.picon-0083-font-file-ttf-otf-type-text:before {
+	content: "\e95d";
+}
+.picon-0084-file-preferences-settings:before {
+	content: "\e95e";
+}
+.picon-0085-file-search-find-replace-zoom-view:before {
+	content: "\e95f";
+}
+.picon-0086-import-file-load:before {
+	content: "\e960";
+}
+.picon-0087-export-file:before {
+	content: "\e961";
+}
+.picon-0088-download-file:before {
+	content: "\e962";
+}
+.picon-0089-upload-file:before {
+	content: "\e963";
+}
+.picon-0090-cv-curriculum-vitae-job-life:before {
+	content: "\e964";
+}
+.picon-0091-file-profile-user-personal:before {
+	content: "\e965";
+}
+.picon-0092-file-profile-user-personal:before {
+	content: "\e966";
+}
+.picon-0093-list-bullets:before {
+	content: "\e967";
+}
+.picon-0094-file-table:before {
+	content: "\e968";
+}
+.picon-0095-file-protected-password-security:before {
+	content: "\e969";
+}
+.picon-0096-file-attachment:before {
+	content: "\e96a";
+}
+.picon-0097-file-text-long:before {
+	content: "\e96b";
+}
+.picon-0098-file-document-legal-text:before {
+	content: "\e96c";
+}
+.picon-0099-legal-document-law-license:before {
+	content: "\e96d";
+}
+.picon-0100-to-do-list-reminder-done:before {
+	content: "\e96e";
+}
+.picon-0101-notes-text-notebook:before {
+	content: "\e96f";
+}
+.picon-0102-notebook-to-do-bullets-list:before {
+	content: "\e970";
+}
+.picon-0103-box-clipboard:before {
+	content: "\e971";
+}
+.picon-0104-load-upload-clipboard-box:before {
+	content: "\e972";
+}
+.picon-0105-download-clipboard-box:before {
+	content: "\e973";
+}
+.picon-0106-clipboard-box-archive-documents:before {
+	content: "\e974";
+}
+.picon-0107-zoom-in:before {
+	content: "\e975";
+}
+.picon-0108-zoom-out:before {
+	content: "\e976";
+}
+.picon-0109-search-find-files-folder:before {
+	content: "\e977";
+}
+.picon-0110-folder:before {
+	content: "\e978";
+}
+.picon-0111-folder-files-documents:before {
+	content: "\e979";
+}
+.picon-0112-folder-images-photos:before {
+	content: "\e97a";
+}
+.picon-0113-folder-password-protected-secure-private:before {
+	content: "\e97b";
+}
+.picon-0114-folder-cloud-sync-backup:before {
+	content: "\e97c";
+}
+.picon-0115-folder-preferences-options-settings:before {
+	content: "\e97d";
+}
+.picon-0116-folder-upload:before {
+	content: "\e97e";
+}
+.picon-0117-folder-documents-revert-history:before {
+	content: "\e97f";
+}
+.picon-0118-folder-open:before {
+	content: "\e980";
+}
+.picon-0119-folder-open-full-documents:before {
+	content: "\e981";
+}
+.picon-0120-download-computer:before {
+	content: "\e982";
+}
+.picon-0121-download-file:before {
+	content: "\e983";
+}
+.picon-0122-download-file-computer-drive:before {
+	content: "\e984";
+}
+.picon-0123-download-cloud-file-sync:before {
+	content: "\e985";
+}
+.picon-0124-upload-cloud-file-sync-backup:before {
+	content: "\e986";
+}
+.picon-0125-cloud-sync:before {
+	content: "\e987";
+}
+.picon-0126-cloud-upload-backup:before {
+	content: "\e988";
+}
+.picon-0127-cloud-sync-error:before {
+	content: "\e989";
+}
+.picon-0128-upload-load-share:before {
+	content: "\e98a";
+}
+.picon-0129-download:before {
+	content: "\e98b";
+}
+.picon-0130-structure-map-files:before {
+	content: "\e98c";
+}
+.picon-0131-arrow-back-undo:before {
+	content: "\e98d";
+}
+.picon-0132-arrow-back-left:before {
+	content: "\e98e";
+}
+.picon-0133-arrow-right-next:before {
+	content: "\e98f";
+}
+.picon-0134-arrow-rotate-left-counter-clockwise:before {
+	content: "\e990";
+}
+.picon-0135-arrow-rotate-right-clockwise:before {
+	content: "\e991";
+}
+.picon-0136-rotation-lock:before {
+	content: "\e992";
+}
+.picon-0137-zoom-expand-maximize-window:before {
+	content: "\e993";
+}
+.picon-0138-expand-move-window-full-screen:before {
+	content: "\e994";
+}
+.picon-0139-window-new-extern-full-screen-maximize:before {
+	content: "\e995";
+}
+.picon-0140-airplay-screen-sharing:before {
+	content: "\e996";
+}
+.picon-0141-rotate-back-revert-undo:before {
+	content: "\e997";
+}
+.picon-0142-rotate-sync:before {
+	content: "\e998";
+}
+.picon-0143-rotate-clockwise:before {
+	content: "\e999";
+}
+.picon-0144-arrows-play-shuffle:before {
+	content: "\e99a";
+}
+.picon-0145-arrows-play-repeat:before {
+	content: "\e99b";
+}
+.picon-0146-arrows-fast-forward:before {
+	content: "\e99c";
+}
+.picon-0147-arrows-divide-split:before {
+	content: "\e99d";
+}
+.picon-0148-arrows-directions-left-right:before {
+	content: "\e99e";
+}
+.picon-0149-arrows-curves:before {
+	content: "\e99f";
+}
+.picon-0150-resize-left-right:before {
+	content: "\e9a0";
+}
+.picon-0151-plus-add-new:before {
+	content: "\e9a1";
+}
+.picon-0152-minus-delete-remove:before {
+	content: "\e9a2";
+}
+.picon-0153-delete-exit-remove-close:before {
+	content: "\e9a3";
+}
+.picon-0154-ok-successful-check:before {
+	content: "\e9a4";
+}
+.picon-0155-delete-remove-exit-close-checkbox:before {
+	content: "\e9a5";
+}
+.picon-0156-checkbox-ok-successful:before {
+	content: "\e9a6";
+}
+.picon-0157-arrow-back-left:before {
+	content: "\e9a7";
+}
+.picon-0158-arrow-next-right:before {
+	content: "\e9a8";
+}
+.picon-0159-arrow-back-left:before {
+	content: "\e9a9";
+}
+.picon-0160-arrow-next-right:before {
+	content: "\e9aa";
+}
+.picon-0161-on-off-switch-toggle-settings-preferences:before {
+	content: "\e9ab";
+}
+.picon-0162-on-off-switch-toggle-settings-preferences:before {
+	content: "\e9ac";
+}
+.picon-0163-on-off-switch-toggle-settings-preferences:before {
+	content: "\e9ad";
+}
+.picon-0164-on-off-switch-toggle-settings-preferences:before {
+	content: "\e9ae";
+}
+.picon-0165-on-off-switch-toggle-settings-preferences:before {
+	content: "\e9af";
+}
+.picon-0166-back-delete-backspace:before {
+	content: "\e9b0";
+}
+.picon-0167-plus-minus:before {
+	content: "\e9b1";
+}
+.picon-0168-check-ok-yes-no:before {
+	content: "\e9b2";
+}
+.picon-0169-target-circles:before {
+	content: "\e9b3";
+}
+.picon-0170-puzzle-modules-build:before {
+	content: "\e9b4";
+}
+.picon-0171-filter-funnel:before {
+	content: "\e9b5";
+}
+.picon-0172-structure-menu-submenu-navigation:before {
+	content: "\e9b6";
+}
+.picon-0173-structure-menu-submenu-navigation:before {
+	content: "\e9b7";
+}
+.picon-0174-archive-open-slide:before {
+	content: "\e9b8";
+}
+.picon-0175-slideshow:before {
+	content: "\e9b9";
+}
+.picon-0176-module-connection-plugin:before {
+	content: "\e9ba";
+}
+.picon-0177-puzzle-module-connect:before {
+	content: "\e9bb";
+}
+.picon-0178-add-more-layers-slides:before {
+	content: "\e9bc";
+}
+.picon-0179-layers-slides:before {
+	content: "\e9bd";
+}
+.picon-0180-www-website-address-url-browser:before {
+	content: "\e9be";
+}
+.picon-0181-dropdown-menu-select-option-form:before {
+	content: "\e9bf";
+}
+.picon-0182-screen-ok-success:before {
+	content: "\e9c0";
+}
+.picon-0183-screen-text:before {
+	content: "\e9c1";
+}
+.picon-0184-screen-text-images-presentation:before {
+	content: "\e9c2";
+}
+.picon-0185-screen-grid-images:before {
+	content: "\e9c3";
+}
+.picon-0186-window-text-images:before {
+	content: "\e9c4";
+}
+.picon-0187-window-graph-analytics:before {
+	content: "\e9c5";
+}
+.picon-0188-window-text-msg-box:before {
+	content: "\e9c6";
+}
+.picon-0189-window-alert-notification-warning-error:before {
+	content: "\e9c7";
+}
+.picon-0190-window-error-danger-stop:before {
+	content: "\e9c8";
+}
+.picon-0191-window-application-cursor:before {
+	content: "\e9c9";
+}
+.picon-0192-window-application-code-shell-terminal:before {
+	content: "\e9ca";
+}
+.picon-0193-window-application-settings-preferences:before {
+	content: "\e9cb";
+}
+.picon-0194-layout-columns-sidemenu:before {
+	content: "\e9cc";
+}
+.picon-0195-layout-columns-three:before {
+	content: "\e9cd";
+}
+.picon-0196-layout-columns-title:before {
+	content: "\e9ce";
+}
+.picon-0197-layout-grid-view:before {
+	content: "\e9cf";
+}
+.picon-0198-battery-charge-empty:before {
+	content: "\e9d0";
+}
+.picon-0199-battery-charge-empty:before {
+	content: "\e9d1";
+}
+.picon-0200-battery-charge-half-empty:before {
+	content: "\e9d2";
+}
+.picon-0201-battery-charge-full:before {
+	content: "\e9d3";
+}
+.picon-0202-battery-charge-full:before {
+	content: "\e9d4";
+}
+.picon-0203-battery-charging-energy:before {
+	content: "\e9d5";
+}
+.picon-0204-bullets-list-radiobuttons:before {
+	content: "\e9d6";
+}
+.picon-0205-bullets-list:before {
+	content: "\e9d7";
+}
+.picon-0206-list-checkbox-todo:before {
+	content: "\e9d8";
+}
+.picon-0207-list-checkbox-todo-done:before {
+	content: "\e9d9";
+}
+.picon-0208-grid-view:before {
+	content: "\e9da";
+}
+.picon-0209-radiobuttons-bullets-lines:before {
+	content: "\e9db";
+}
+.picon-0210-checkboxes-lines-check:before {
+	content: "\e9dc";
+}
+.picon-0211-hand-touch-one-finger:before {
+	content: "\e9dd";
+}
+.picon-0212-hand-touch-click-one-finger:before {
+	content: "\e9de";
+}
+.picon-0213-hand-touch-click-press-one-finger:before {
+	content: "\e9df";
+}
+.picon-0214-hand-touch-click-two-finger:before {
+	content: "\e9e0";
+}
+.picon-0215-hand-two-finger-swipe-right:before {
+	content: "\e9e1";
+}
+.picon-0216-hand-two-finger-swipe-left:before {
+	content: "\e9e2";
+}
+.picon-0217-hand-two-finger-swipe-right:before {
+	content: "\e9e3";
+}
+.picon-0218-hand-two-finger-swipe-left:before {
+	content: "\e9e4";
+}
+.picon-0219-hand-one-finger-swipe-right:before {
+	content: "\e9e5";
+}
+.picon-0220-hand-one-finger-swipe-left:before {
+	content: "\e9e6";
+}
+.picon-0221-hand-one-finger-swipe-down-scroll:before {
+	content: "\e9e7";
+}
+.picon-0222-hand-one-finger-swipe-up-scroll:before {
+	content: "\e9e8";
+}
+.picon-0223-hand-two-finger-swipe-down:before {
+	content: "\e9e9";
+}
+.picon-0224-hand-two-finger-swipe-up:before {
+	content: "\e9ea";
+}
+.picon-0225-hand-two-finger-pinch-zoom:before {
+	content: "\e9eb";
+}
+.picon-0226-hand-two-finger-pinch-zoom:before {
+	content: "\e9ec";
+}
+.picon-0227-hand-three-finger-swipe-scroll-down:before {
+	content: "\e9ed";
+}
+.picon-0228-hand-three-finger-swipe-scroll-up:before {
+	content: "\e9ee";
+}
+.picon-0229-hand-three-finger-swipe-right:before {
+	content: "\e9ef";
+}
+.picon-0230-hand-three-finger-swipe-left:before {
+	content: "\e9f0";
+}
+.picon-0231-hand-finger-show-right:before {
+	content: "\e9f1";
+}
+.picon-0232-hand-finger-show-left:before {
+	content: "\e9f2";
+}
+.picon-0233-hand-fingers-grab-touch:before {
+	content: "\e9f3";
+}
+.picon-0233a-hand-finger:before {
+	content: "\e9f4";
+}
+.picon-0233b-hand-two-fingers:before {
+	content: "\e9f5";
+}
+.picon-0234-text-align-left-paragraph:before {
+	content: "\e9f6";
+}
+.picon-0235-text-align-center-paragraph:before {
+	content: "\e9f7";
+}
+.picon-0236-text-align-right-paragraph:before {
+	content: "\e9f8";
+}
+.picon-0237-text-align-justify-last-line-left-paragraph:before {
+	content: "\e9f9";
+}
+.picon-0238-text-align-justify-last-line-right-paragraph:before {
+	content: "\e9fa";
+}
+.picon-0239-text-align-justify-paragraph:before {
+	content: "\e9fb";
+}
+.picon-0240-text-align-right-indent:before {
+	content: "\e9fc";
+}
+.picon-0241-text-align-left-indent:before {
+	content: "\e9fd";
+}
+.picon-0242-text-line-height-leading:before {
+	content: "\e9fe";
+}
+.picon-0243-text-line-height-leading:before {
+	content: "\e9ff";
+}
+.picon-0244-text-bullets-list:before {
+	content: "\ea00";
+}
+.picon-0245-text-numbered-list:before {
+	content: "\ea01";
+}
+.picon-0246-text-font-size-smaller:before {
+	content: "\ea02";
+}
+.picon-0247-text-font-size-larger:before {
+	content: "\ea03";
+}
+.picon-0248-text-paragraph-indent-right:before {
+	content: "\ea04";
+}
+.picon-0249-text-paragraph-indent-left:before {
+	content: "\ea05";
+}
+.picon-0250-text-line-order:before {
+	content: "\ea06";
+}
+.picon-0251-text-paragraph-line-spacing:before {
+	content: "\ea07";
+}
+.picon-0252-text-spelling-check:before {
+	content: "\ea08";
+}
+.picon-0253-image-frame-size-rotate-resize:before {
+	content: "\ea09";
+}
+.picon-0254-copy:before {
+	content: "\ea0a";
+}
+.picon-0255-paste-clipboard:before {
+	content: "\ea0b";
+}
+.picon-0256-input-box-text-edit:before {
+	content: "\ea0c";
+}
+.picon-0257-button:before {
+	content: "\ea0d";
+}
+.picon-0258-code-html:before {
+	content: "\ea0e";
+}
+.picon-0259-code-html:before {
+	content: "\ea0f";
+}
+.picon-0260-link-url-chain-hyperlink:before {
+	content: "\ea10";
+}
+.picon-0261-unlink-url-unchain-hyperlink:before {
+	content: "\ea11";
+}
+.picon-0262-remove-clear-text-style:before {
+	content: "\ea12";
+}
+.picon-0263-text-font-typography:before {
+	content: "\ea13";
+}
+.picon-0264-text-style-bold:before {
+	content: "\ea14";
+}
+.picon-0265-text-style-italic:before {
+	content: "\ea15";
+}
+.picon-0266-text-style-underline:before {
+	content: "\ea16";
+}
+.picon-0267-text-style-strikethrough:before {
+	content: "\ea17";
+}
+.picon-0268-text-style-superscript:before {
+	content: "\ea18";
+}
+.picon-0269-text-style-subscript:before {
+	content: "\ea19";
+}
+.picon-0270-image-frame-crop-resize:before {
+	content: "\ea1a";
+}
+.picon-0271-text-image-align-wrap:before {
+	content: "\ea1b";
+}
+.picon-0272-text-image-align-top-bottom:before {
+	content: "\ea1c";
+}
+.picon-0273-video-multimedia-movie:before {
+	content: "\ea1d";
+}
+.picon-0274-chat-message-comment-bubble:before {
+	content: "\ea1e";
+}
+.picon-0275-chat-message-comment-bubble-typing:before {
+	content: "\ea1f";
+}
+.picon-0276-chat-message-comment-bubble-add-new:before {
+	content: "\ea20";
+}
+.picon-0277-chat-message-comment-bubble-like-favorite:before {
+	content: "\ea21";
+}
+.picon-0278-chat-message-comment-bubble-tweet-twitter:before {
+	content: "\ea22";
+}
+.picon-0279-chat-message-comment-bubble:before {
+	content: "\ea23";
+}
+.picon-0280-chat-message-comment-bubble-reply-quote:before {
+	content: "\ea24";
+}
+.picon-0281-chat-message-discussion-bubble-reply-conversation:before {
+	content: "\ea25";
+}
+.picon-0282-chat-message-comment-bubble-cloud:before {
+	content: "\ea26";
+}
+.picon-0283-chat-message-comment-bubble-cloud:before {
+	content: "\ea27";
+}
+.picon-0284-message-text-like-favorite:before {
+	content: "\ea28";
+}
+.picon-0285-chat-message-quote-reply:before {
+	content: "\ea29";
+}
+.picon-0286-mobile-message-sms:before {
+	content: "\ea2a";
+}
+.picon-0287-mobile-message-sms:before {
+	content: "\ea2b";
+}
+.picon-0288-mobile-phone-call:before {
+	content: "\ea2c";
+}
+.picon-0289-mobile-phone-call-ringing-nfc:before {
+	content: "\ea2d";
+}
+.picon-0290-phone-telephone-contact:before {
+	content: "\ea2e";
+}
+.picon-0291-phone-mobile-contact:before {
+	content: "\ea2f";
+}
+.picon-0292-phone-contact:before {
+	content: "\ea30";
+}
+.picon-0293-phone-call-number-dialer:before {
+	content: "\ea31";
+}
+.picon-0294-phone-call-ringing:before {
+	content: "\ea32";
+}
+.picon-0295-phone-hold-call:before {
+	content: "\ea33";
+}
+.picon-0296-phone-call-contact:before {
+	content: "\ea34";
+}
+.picon-0297-address-book-contacts:before {
+	content: "\ea35";
+}
+.picon-0298-address-book-contacts:before {
+	content: "\ea36";
+}
+.picon-0299-address-book-contacts:before {
+	content: "\ea37";
+}
+.picon-0300-address-book-contacts:before {
+	content: "\ea38";
+}
+.picon-0301-address-book-contacts:before {
+	content: "\ea39";
+}
+.picon-0302-sim-card:before {
+	content: "\ea3a";
+}
+.picon-0303-notification-badge:before {
+	content: "\ea3b";
+}
+.picon-0304-chat-contact-support-help-conversation:before {
+	content: "\ea3c";
+}
+.picon-0305-chat-message-discussion-bubble-conversation:before {
+	content: "\ea3d";
+}
+.picon-0306-chat-message-discussion-bubble-conversation:before {
+	content: "\ea3e";
+}
+.picon-0307-chat-discussion-yes-no-pro-contra-conversation:before {
+	content: "\ea3f";
+}
+.picon-0308-support-help:before {
+	content: "\ea40";
+}
+.picon-0309-support-help-talk-call:before {
+	content: "\ea41";
+}
+.picon-0310-support-help-talk-call:before {
+	content: "\ea42";
+}
+.picon-0311-stamp:before {
+	content: "\ea43";
+}
+.picon-0312-post-stamp:before {
+	content: "\ea44";
+}
+.picon-0313-email-at-sign:before {
+	content: "\ea45";
+}
+.picon-0314-email-mail-post-card:before {
+	content: "\ea46";
+}
+.picon-0315-email-mail-post-send:before {
+	content: "\ea47";
+}
+.picon-0316-email-mail-post-open:before {
+	content: "\ea48";
+}
+.picon-0317-send-post-paper-plane:before {
+	content: "\ea49";
+}
+.picon-0318-email-attachment:before {
+	content: "\ea4a";
+}
+.picon-0319-email-mail-post-card:before {
+	content: "\ea4b";
+}
+.picon-0320-email-mail-post-card-sent-successful:before {
+	content: "\ea4c";
+}
+.picon-0321-email-mail-post-at:before {
+	content: "\ea4d";
+}
+.picon-0322-mail-post-box:before {
+	content: "\ea4e";
+}
+.picon-0323-computer-desktop:before {
+	content: "\ea4f";
+}
+.picon-0324-computer-screen:before {
+	content: "\ea50";
+}
+.picon-0325-computer-screen-cloud:before {
+	content: "\ea51";
+}
+.picon-0326-computer-screen-users-profile:before {
+	content: "\ea52";
+}
+.picon-0327-computer-screen-settings-preferences:before {
+	content: "\ea53";
+}
+.picon-0328-computer-screen-locked-password-protected-security:before {
+	content: "\ea54";
+}
+.picon-0329-computer-laptop-user-login:before {
+	content: "\ea55";
+}
+.picon-0330-computer-laptop-download:before {
+	content: "\ea56";
+}
+.picon-0331-computer-laptop-analytics-graph:before {
+	content: "\ea57";
+}
+.picon-0332-computer-laptop-website-url-www:before {
+	content: "\ea58";
+}
+.picon-0333-printer:before {
+	content: "\ea59";
+}
+.picon-0334-shredder-paper:before {
+	content: "\ea5a";
+}
+.picon-0335-cd-dvd-disc-software:before {
+	content: "\ea5b";
+}
+.picon-0336-disc-floppy-save-software:before {
+	content: "\ea5c";
+}
+.picon-0337-keyboard-connect:before {
+	content: "\ea5d";
+}
+.picon-0338-keyboard-wired:before {
+	content: "\ea5e";
+}
+.picon-0339-keyboard-wireless:before {
+	content: "\ea5f";
+}
+.picon-0340-mouse:before {
+	content: "\ea60";
+}
+.picon-0341-mouse-wireless:before {
+	content: "\ea61";
+}
+.picon-0342-remote-control:before {
+	content: "\ea62";
+}
+.picon-0343-ipad-tablet:before {
+	content: "\ea63";
+}
+.picon-0344-iphone-mobile:before {
+	content: "\ea64";
+}
+.picon-0345-chip-cpu-64-bit-processor:before {
+	content: "\ea65";
+}
+.picon-0346-magnet:before {
+	content: "\ea66";
+}
+.picon-0347-usb:before {
+	content: "\ea67";
+}
+.picon-0348-thunderbolt:before {
+	content: "\ea68";
+}
+.picon-0349-usb-connect:before {
+	content: "\ea69";
+}
+.picon-0350-apple-connect:before {
+	content: "\ea6a";
+}
+.picon-0351-apple-lightning-connect:before {
+	content: "\ea6b";
+}
+.picon-0352-apple-lightning-connect:before {
+	content: "\ea6c";
+}
+.picon-0353-wi-fi-wlan-connect-internet:before {
+	content: "\ea6d";
+}
+.picon-0354-wi-fi-wlan-connect-internet:before {
+	content: "\ea6e";
+}
+.picon-0355-wi-fi-wlan-router:before {
+	content: "\ea6f";
+}
+.picon-0356-database:before {
+	content: "\ea70";
+}
+.picon-0357-database-remote:before {
+	content: "\ea71";
+}
+.picon-0358-database-raid:before {
+	content: "\ea72";
+}
+.picon-0359-server-hosting:before {
+	content: "\ea73";
+}
+.picon-0360-network-connection-lan-computers:before {
+	content: "\ea74";
+}
+.picon-0361-network-lan-drives-backup-remote:before {
+	content: "\ea75";
+}
+.picon-0362-network-remote-folder-drive:before {
+	content: "\ea76";
+}
+.picon-0363-network-connection-computer-folder:before {
+	content: "\ea77";
+}
+.picon-0364-network-connection-computers:before {
+	content: "\ea78";
+}
+.picon-0365-network-connection-computers:before {
+	content: "\ea79";
+}
+.picon-0366-satellite-connection:before {
+	content: "\ea7a";
+}
+.picon-0367-satellite-connection:before {
+	content: "\ea7b";
+}
+.picon-0368-home-wi-fi-wireless-network:before {
+	content: "\ea7c";
+}
+.picon-0369-wi-fi-wlan-connect-internet-signal-antenna:before {
+	content: "\ea7d";
+}
+.picon-0370-wi-fi-wlan-connect-internet-signal-antenna:before {
+	content: "\ea7e";
+}
+.picon-0371-bluetooth:before {
+	content: "\ea7f";
+}
+.picon-0372-connection-wireless:before {
+	content: "\ea80";
+}
+.picon-0373-connection-world-internet-worldwide:before {
+	content: "\ea81";
+}
+.picon-0374-connection-world-internet-worldwide:before {
+	content: "\ea82";
+}
+.picon-0375-screen-analytics-line-graph:before {
+	content: "\ea83";
+}
+.picon-0376-screen-analytics-line-graph-growth:before {
+	content: "\ea84";
+}
+.picon-0377-screen-analytics-pie-graph:before {
+	content: "\ea85";
+}
+.picon-0378-analytics-presentation-statistics-graph:before {
+	content: "\ea86";
+}
+.picon-0379-business-suitcase:before {
+	content: "\ea87";
+}
+.picon-0380-line-structure-hierarchy:before {
+	content: "\ea88";
+}
+.picon-0381-line-structure-relations-hierarchy:before {
+	content: "\ea89";
+}
+.picon-0382-graph-columns-statistics:before {
+	content: "\ea8a";
+}
+.picon-0383-graph-columns-growth-statistics:before {
+	content: "\ea8b";
+}
+.picon-0384-graph-columns-drop-statistics:before {
+	content: "\ea8c";
+}
+.picon-0385-graph-pie-chart-statistics:before {
+	content: "\ea8d";
+}
+.picon-0386-graph-line-chart-statistics:before {
+	content: "\ea8e";
+}
+.picon-0387-tie-business-man:before {
+	content: "\ea8f";
+}
+.picon-0388-government-white-house-capitol:before {
+	content: "\ea90";
+}
+.picon-0389-gavel-hammer-law-judge-court:before {
+	content: "\ea91";
+}
+.picon-0390-scale-justice-law-attorney:before {
+	content: "\ea92";
+}
+.picon-0391-scale-justice-law-attorney:before {
+	content: "\ea93";
+}
+.picon-0392-business-idea:before {
+	content: "\ea94";
+}
+.picon-0393-hand-papers-payment:before {
+	content: "\ea95";
+}
+.picon-0394-business-handshake-deal-contract-sign:before {
+	content: "\ea96";
+}
+.picon-0395-analytics-graph-line-statistics:before {
+	content: "\ea97";
+}
+.picon-0396-analytics-graph-line-statistics-stock:before {
+	content: "\ea98";
+}
+.picon-0397-analytics-graph-line-statistics-presentation-keynote:before {
+	content: "\ea99";
+}
+.picon-0398-presentation-powerpoint-keynote-meeting:before {
+	content: "\ea9a";
+}
+.picon-0399-meeting-presentation-speech-speaker-keynote:before {
+	content: "\ea9b";
+}
+.picon-0400-analytics-graph-line-statistics-stock:before {
+	content: "\ea9c";
+}
+.picon-0401-graph-growth-money-stock-inflation:before {
+	content: "\ea9d";
+}
+.picon-0402-stock-money-growth-inflation:before {
+	content: "\ea9e";
+}
+.picon-0403-money-usa-dollar:before {
+	content: "\ea9f";
+}
+.picon-0404-money-europe-euro:before {
+	content: "\eaa0";
+}
+.picon-0405-money-bag-dollar:before {
+	content: "\eaa1";
+}
+.picon-0406-money-dollar-euro-currency-exchange-cash:before {
+	content: "\eaa2";
+}
+.picon-0407-credit-card:before {
+	content: "\eaa3";
+}
+.picon-0408-wallet-money-payment:before {
+	content: "\eaa4";
+}
+.picon-0409-wallet-credit-card-money-payment:before {
+	content: "\eaa5";
+}
+.picon-0410-cash-register-payment:before {
+	content: "\eaa6";
+}
+.picon-0411-invoice-dollar-bill-payment:before {
+	content: "\eaa7";
+}
+.picon-0412-free:before {
+	content: "\eaa8";
+}
+.picon-0413-money-coins-jettons-chips:before {
+	content: "\eaa9";
+}
+.picon-0414-money-cash-coins-payment:before {
+	content: "\eaaa";
+}
+.picon-0415-saving-sale-discount-piggy-bank-pig:before {
+	content: "\eaab";
+}
+.picon-0416-calculator:before {
+	content: "\eaac";
+}
+.picon-0417-calculator:before {
+	content: "\eaad";
+}
+.picon-0418-bank-pantheon:before {
+	content: "\eaae";
+}
+.picon-0419-payment-mobile-nfc-apple-pay-cashless:before {
+	content: "\eaaf";
+}
+.picon-0420-money-cash-coins-payment-dollars:before {
+	content: "\eab0";
+}
+.picon-0421-money-credit-card-coins-payment:before {
+	content: "\eab1";
+}
+.picon-0422-no-cash-payment-cashless:before {
+	content: "\eab2";
+}
+.picon-0423-coin-payment-chip:before {
+	content: "\eab3";
+}
+.picon-0424-money-payment-dollar-cash:before {
+	content: "\eab4";
+}
+.picon-0425-money-payment-dollar-cash:before {
+	content: "\eab5";
+}
+.picon-0426-money-payment-dollars-coins-cash:before {
+	content: "\eab6";
+}
+.picon-0427-money-payment-dollar-coins-chips:before {
+	content: "\eab7";
+}
+.picon-0428-money-payment-dollar-bag-cash:before {
+	content: "\eab8";
+}
+.picon-0429-money-payment-euro-bag-cash:before {
+	content: "\eab9";
+}
+.picon-0430-money-payment-dollar-coins-cash:before {
+	content: "\eaba";
+}
+.picon-0431-money-atm-machine-withdrawal-cash:before {
+	content: "\eabb";
+}
+.picon-0432-atm-machine-withdrawal-credit-card:before {
+	content: "\eabc";
+}
+.picon-0433-money-currency-exchange:before {
+	content: "\eabd";
+}
+.picon-0434-gold-reserve:before {
+	content: "\eabe";
+}
+.picon-0435-bitcoin-money:before {
+	content: "\eabf";
+}
+.picon-0436-bitcoin-wallet-payment:before {
+	content: "\eac0";
+}
+.picon-0436a-pound-britain-currency-money:before {
+	content: "\eac1";
+}
+.picon-0436b-pound-britain-currency-money:before {
+	content: "\eac2";
+}
+.picon-0437-tag-price-sale:before {
+	content: "\eac3";
+}
+.picon-0438-tag-price-sale-discount:before {
+	content: "\eac4";
+}
+.picon-0439-shopping-cart-basket-store:before {
+	content: "\eac5";
+}
+.picon-0440-shopping-cart-basket-store:before {
+	content: "\eac6";
+}
+.picon-0441-full-shopping-cart-basket-store:before {
+	content: "\eac7";
+}
+.picon-0442-shopping-cart-basket-store:before {
+	content: "\eac8";
+}
+.picon-0443-shopping-cart-basket-store:before {
+	content: "\eac9";
+}
+.picon-0444-price-discount-sale-coupon:before {
+	content: "\eaca";
+}
+.picon-0445-store-shop-shopping:before {
+	content: "\eacb";
+}
+.picon-0446-store-shop-shopping:before {
+	content: "\eacc";
+}
+.picon-0447-gift-wrapping:before {
+	content: "\eacd";
+}
+.picon-0448-shipping-box-delivery:before {
+	content: "\eace";
+}
+.picon-0449-fragile-shipping-box-delivery:before {
+	content: "\eacf";
+}
+.picon-0450-shipping-box-delivery:before {
+	content: "\ead0";
+}
+.picon-0451-shipping-box-delivery:before {
+	content: "\ead1";
+}
+.picon-0452-archive-shipping-box-delivery:before {
+	content: "\ead2";
+}
+.picon-0453-shopping-bag-sale-store:before {
+	content: "\ead3";
+}
+.picon-0454-shopping-bag-sale-store:before {
+	content: "\ead4";
+}
+.picon-0455-delivery-van-shipping:before {
+	content: "\ead5";
+}
+.picon-0456-fragile-delivery-shipping:before {
+	content: "\ead6";
+}
+.picon-0457-store-shop-open:before {
+	content: "\ead7";
+}
+.picon-0458-store-shop-closed:before {
+	content: "\ead8";
+}
+.picon-0459-store-shop-open-nonstop:before {
+	content: "\ead9";
+}
+.picon-0460-new:before {
+	content: "\eada";
+}
+.picon-0461-delivery-van-shipping-transport:before {
+	content: "\eadb";
+}
+.picon-0462-fast-delivery-van-shipping-transport:before {
+	content: "\eadc";
+}
+.picon-0463-fast-delivery-van-shipping-transport:before {
+	content: "\eadd";
+}
+.picon-0464-shipping-box-delivery:before {
+	content: "\eade";
+}
+.picon-0465-shopping-cart-basket-store:before {
+	content: "\eadf";
+}
+.picon-0466-shopping-cart-basket-store-successful:before {
+	content: "\eae0";
+}
+.picon-0467-traffic-lights-transport:before {
+	content: "\eae1";
+}
+.picon-0468-car-transport-vehicle:before {
+	content: "\eae2";
+}
+.picon-0469-van-truck-transport-vehicle:before {
+	content: "\eae3";
+}
+.picon-0470-bus-transport:before {
+	content: "\eae4";
+}
+.picon-0471-train-metro-transport:before {
+	content: "\eae5";
+}
+.picon-0472-road-trafic:before {
+	content: "\eae6";
+}
+.picon-0473-ship-naval-sea-marine-transport:before {
+	content: "\eae7";
+}
+.picon-0474-anchor-ship-sea-naval:before {
+	content: "\eae8";
+}
+.picon-0475-bike-bycicle-transport:before {
+	content: "\eae9";
+}
+.picon-0476-chain-link-bike-bycicle:before {
+	content: "\eaea";
+}
+.picon-0477-steering-wheel-car-navigation-driving:before {
+	content: "\eaeb";
+}
+.picon-0478-plane-air:before {
+	content: "\eaec";
+}
+.picon-0479-rocket-space-nasa:before {
+	content: "\eaed";
+}
+.picon-0480-gas-fuel-station:before {
+	content: "\eaee";
+}
+.picon-0481-corn-traffic-jam-road-sign:before {
+	content: "\eaef";
+}
+.picon-0482-gauge-dashboard-empty:before {
+	content: "\eaf0";
+}
+.picon-0483-gauge-dashboard-half:before {
+	content: "\eaf1";
+}
+.picon-0484-gauge-dashboard-full-fuel:before {
+	content: "\eaf2";
+}
+.picon-0485-gauge-dashboard-speedometer-odometer-speed:before {
+	content: "\eaf3";
+}
+.picon-0486-gauge-car-dashboard-speedometer-odometer-speed:before {
+	content: "\eaf4";
+}
+.picon-0487-van-truck-transport-vehicle:before {
+	content: "\eaf5";
+}
+.picon-0488-van-truck-transport-vehicle:before {
+	content: "\eaf6";
+}
+.picon-0489-storehouse-storage:before {
+	content: "\eaf7";
+}
+.picon-0490-shipping-cart-box-delivery:before {
+	content: "\eaf8";
+}
+.picon-0491-box-shipping-modules:before {
+	content: "\eaf9";
+}
+.picon-0492-car-wash:before {
+	content: "\eafa";
+}
+.picon-0493-car-wash:before {
+	content: "\eafb";
+}
+.picon-0494-4x4-offroad-car-jeep-safari:before {
+	content: "\eafc";
+}
+.picon-0495-car-garage:before {
+	content: "\eafd";
+}
+.picon-0496-car-garage-house-home:before {
+	content: "\eafe";
+}
+.picon-0497-car-machine-piston-cylinder:before {
+	content: "\eaff";
+}
+.picon-0498-car-battery-electricity:before {
+	content: "\eb00";
+}
+.picon-0499-car-machine-check:before {
+	content: "\eb01";
+}
+.picon-0500-car-machine-cooling-water-temperature:before {
+	content: "\eb02";
+}
+.picon-0501-car-machine-oil-presure-level-check:before {
+	content: "\eb03";
+}
+.picon-0502-car-brakes-check-safety-danger:before {
+	content: "\eb04";
+}
+.picon-0503-car-windshield-water:before {
+	content: "\eb05";
+}
+.picon-0504-car-turn-sign-right-left:before {
+	content: "\eb06";
+}
+.picon-0505-car-manual-gearbox:before {
+	content: "\eb07";
+}
+.picon-0506-suitcase-travel-baggage-luggage:before {
+	content: "\eb08";
+}
+.picon-0507-suitcase-travel-baggage-luggage:before {
+	content: "\eb09";
+}
+.picon-0508-tag-flight-baggage-luggage:before {
+	content: "\eb0a";
+}
+.picon-0509-globus-world-travel-regional:before {
+	content: "\eb0b";
+}
+.picon-0510-passport-travel:before {
+	content: "\eb0c";
+}
+.picon-0511-suitcase-tag-travel-baggage-luggage:before {
+	content: "\eb0d";
+}
+.picon-0512-flight-airport-transport-travel:before {
+	content: "\eb0e";
+}
+.picon-0513-car-travel-road-trip:before {
+	content: "\eb0f";
+}
+.picon-0514-camping-caravan-car-motorhome-travel:before {
+	content: "\eb10";
+}
+.picon-0515-4x4-offroad-jeep-mountains-tour-safari:before {
+	content: "\eb11";
+}
+.picon-0516-paris-city-travel-honeymoon-love-romantic:before {
+	content: "\eb12";
+}
+.picon-0517-san-francisco-california-bridge-golden-gate:before {
+	content: "\eb13";
+}
+.picon-0518-rome-italy-colosseum:before {
+	content: "\eb14";
+}
+.picon-0519-rio-de-jeneiro-brasil-jesus:before {
+	content: "\eb15";
+}
+.picon-0520-pisa-italy-leaning-tower:before {
+	content: "\eb16";
+}
+.picon-0521-petronal-tower-malaysia:before {
+	content: "\eb17";
+}
+.picon-0522-dubai-hotel-burj-al-arab:before {
+	content: "\eb18";
+}
+.picon-0523-berlin-brandenburger-tor-germany:before {
+	content: "\eb19";
+}
+.picon-0524-syndey-opera-australia:before {
+	content: "\eb1a";
+}
+.picon-0525-ancient-egypt-pyramid:before {
+	content: "\eb1b";
+}
+.picon-0526-netherlands-wind-mill:before {
+	content: "\eb1c";
+}
+.picon-0527-lighthouse-shore-coast-sea:before {
+	content: "\eb1d";
+}
+.picon-0528-castle:before {
+	content: "\eb1e";
+}
+.picon-0529-cementary:before {
+	content: "\eb1f";
+}
+.picon-0530-favorite-place-map:before {
+	content: "\eb20";
+}
+.picon-0531-baggage-luggage-hotel:before {
+	content: "\eb21";
+}
+.picon-0532-park-tree:before {
+	content: "\eb22";
+}
+.picon-0533-baloon-hot-air:before {
+	content: "\eb23";
+}
+.picon-0534-vespa-scooter-motorbike:before {
+	content: "\eb24";
+}
+.picon-0535-navigation-location-drop-pin-map:before {
+	content: "\eb25";
+}
+.picon-0536-navigation-location-drop-pin-map:before {
+	content: "\eb26";
+}
+.picon-0537-navigation-location-drop-pin-map:before {
+	content: "\eb27";
+}
+.picon-0538-navigation-compass-orientation:before {
+	content: "\eb28";
+}
+.picon-0539-map-path-navigation-location:before {
+	content: "\eb29";
+}
+.picon-0540-map-path-navigation-location-treasure-hunt:before {
+	content: "\eb2a";
+}
+.picon-0541-path-way-road-sign:before {
+	content: "\eb2b";
+}
+.picon-0542-path-way-road-sign:before {
+	content: "\eb2c";
+}
+.picon-0543-world-earth-worldwide-location-travel:before {
+	content: "\eb2d";
+}
+.picon-0544-world-earth-worldwide-international-language:before {
+	content: "\eb2e";
+}
+.picon-0545-map-travel-distance-directions:before {
+	content: "\eb2f";
+}
+.picon-0546-map-travel-destination-location-world:before {
+	content: "\eb30";
+}
+.picon-0547-path-travel-road:before {
+	content: "\eb31";
+}
+.picon-0548-dont-touch-dangerous-stop-caution:before {
+	content: "\eb32";
+}
+.picon-0549-dont-touch-dangerous-stop-caution:before {
+	content: "\eb33";
+}
+.picon-0550-attention-error-alert-caution:before {
+	content: "\eb34";
+}
+.picon-0551-information-about:before {
+	content: "\eb35";
+}
+.picon-0552-about-question-faq-help:before {
+	content: "\eb36";
+}
+.picon-0553-radioactive-nuclear-danger-atom:before {
+	content: "\eb37";
+}
+.picon-0554-fire-danger-hot-flammable:before {
+	content: "\eb38";
+}
+.picon-0555-fire-extinguisher:before {
+	content: "\eb39";
+}
+.picon-0556-poison-danger-death-caution:before {
+	content: "\eb3a";
+}
+.picon-0557-men-women-toilet-wc-restroom:before {
+	content: "\eb3b";
+}
+.picon-0558-men-women-toilet-wc-restroom:before {
+	content: "\eb3c";
+}
+.picon-0559-smoking-allowed-cigarettes:before {
+	content: "\eb3d";
+}
+.picon-0560-smoking-forbidden-cigarettes:before {
+	content: "\eb3e";
+}
+.picon-0561-guns-arms-forbidden:before {
+	content: "\eb3f";
+}
+.picon-0562-dogs-pets-forbidden:before {
+	content: "\eb40";
+}
+.picon-0563-handicapped:before {
+	content: "\eb41";
+}
+.picon-0564-flight-departure-airport-airplane:before {
+	content: "\eb42";
+}
+.picon-0565-flight-arrival-airport-airplane:before {
+	content: "\eb43";
+}
+.picon-0566-trash-bin-garbage:before {
+	content: "\eb44";
+}
+.picon-0567-elevator-up-down:before {
+	content: "\eb45";
+}
+.picon-0568-steps-upstairs:before {
+	content: "\eb46";
+}
+.picon-0569-steps-downstairs:before {
+	content: "\eb47";
+}
+.picon-0570-rolling-stairs-up:before {
+	content: "\eb48";
+}
+.picon-0571-rolling-stairs-down:before {
+	content: "\eb49";
+}
+.picon-0572-down:before {
+	content: "\eb4a";
+}
+.picon-0573-up:before {
+	content: "\eb4b";
+}
+.picon-0574-out-exit-emergency-logout:before {
+	content: "\eb4c";
+}
+.picon-0575-out-exit-emergency-logout:before {
+	content: "\eb4d";
+}
+.picon-0576-door-exit-emergency-logout:before {
+	content: "\eb4e";
+}
+.picon-0577-information-desk-support-help:before {
+	content: "\eb4f";
+}
+.picon-0578-information-office-desk-support-help:before {
+	content: "\eb50";
+}
+.picon-0579-speech-presentation:before {
+	content: "\eb51";
+}
+.picon-0580-changing-diapers-baby:before {
+	content: "\eb52";
+}
+.picon-0581-take-ticket-vote-box:before {
+	content: "\eb53";
+}
+.picon-0582-take-ticket-waiting-room:before {
+	content: "\eb54";
+}
+.picon-0583-take-ticket:before {
+	content: "\eb55";
+}
+.picon-0584-movie-film-cinema:before {
+	content: "\eb56";
+}
+.picon-0585-hd-movie-video-camera-recording:before {
+	content: "\eb57";
+}
+.picon-0586-movie-video-camera-recording:before {
+	content: "\eb58";
+}
+.picon-0587-movie-video-cinema-flm:before {
+	content: "\eb59";
+}
+.picon-0588-play-movie-video-cinema-flm:before {
+	content: "\eb5a";
+}
+.picon-0589-ticket-movie-cinema:before {
+	content: "\eb5b";
+}
+.picon-0590-movie-recording-play-director-cut:before {
+	content: "\eb5c";
+}
+.picon-0591-presentation-video-play-beamer:before {
+	content: "\eb5d";
+}
+.picon-0592-tv-televison-movie-news:before {
+	content: "\eb5e";
+}
+.picon-0593-video-play-youtube:before {
+	content: "\eb5f";
+}
+.picon-0594-beamer-presentation-projector:before {
+	content: "\eb60";
+}
+.picon-0595-music-note-playing-sound-song:before {
+	content: "\eb61";
+}
+.picon-0596-music-note-playing-sound-song:before {
+	content: "\eb62";
+}
+.picon-0597-playlist-music-note-playing-sound-song:before {
+	content: "\eb63";
+}
+.picon-0598-music-ipod-playing-player-playlist:before {
+	content: "\eb64";
+}
+.picon-0599-ipod-music-playing-song:before {
+	content: "\eb65";
+}
+.picon-0600-music-playing-song-album:before {
+	content: "\eb66";
+}
+.picon-0601-music-cloud-song-streaming:before {
+	content: "\eb67";
+}
+.picon-0602-casette-music-song-radio:before {
+	content: "\eb68";
+}
+.picon-0603-dj-music-disc-disco:before {
+	content: "\eb69";
+}
+.picon-0604-radio-song-listening:before {
+	content: "\eb6a";
+}
+.picon-0605-ringer-alarm-sound:before {
+	content: "\eb6b";
+}
+.picon-0606-ringer-alarm-sound-silent-mute:before {
+	content: "\eb6c";
+}
+.picon-0607-ringer-sound-speaker-laud:before {
+	content: "\eb6d";
+}
+.picon-0608-ringer-sound-speaker-laud:before {
+	content: "\eb6e";
+}
+.picon-0609-ringer-sound-speaker-laud:before {
+	content: "\eb6f";
+}
+.picon-0610-ringer-sound-speaker-mute-silent:before {
+	content: "\eb70";
+}
+.picon-0611-microphone-mic-voice-recording:before {
+	content: "\eb71";
+}
+.picon-0612-microphone-mic-voice-recording:before {
+	content: "\eb72";
+}
+.picon-0613-voice-laud-announcement-news:before {
+	content: "\eb73";
+}
+.picon-0614-speaker-music-sound-playing:before {
+	content: "\eb74";
+}
+.picon-0615-ringer-silent-sleeping:before {
+	content: "\eb75";
+}
+.picon-0616-headphones-headset-speaker-beats:before {
+	content: "\eb76";
+}
+.picon-0617-picture-image-photo:before {
+	content: "\eb77";
+}
+.picon-0618-album-picture-image-photo:before {
+	content: "\eb78";
+}
+.picon-0619-album-picture-image-photo:before {
+	content: "\eb79";
+}
+.picon-0620-picture-image-photo-desk:before {
+	content: "\eb7a";
+}
+.picon-0621-polaroid-picture-image-photo:before {
+	content: "\eb7b";
+}
+.picon-0622-wall-picture-image-photo:before {
+	content: "\eb7c";
+}
+.picon-0623-not-available-broken-missing-picture-image-photo:before {
+	content: "\eb7d";
+}
+.picon-0624-photo-camera:before {
+	content: "\eb7e";
+}
+.picon-0625-photo-camera:before {
+	content: "\eb7f";
+}
+.picon-0626-photo-camera-upload-computer:before {
+	content: "\eb80";
+}
+.picon-0627-photo-camera-portrait:before {
+	content: "\eb81";
+}
+.picon-0628-photo-camera-landscape:before {
+	content: "\eb82";
+}
+.picon-0629-photo-camera-tripod-stand:before {
+	content: "\eb83";
+}
+.picon-0630-photo-wall-frame:before {
+	content: "\eb84";
+}
+.picon-0631-camera-setting-close-up-macro:before {
+	content: "\eb85";
+}
+.picon-0632-security-lock:before {
+	content: "\eb86";
+}
+.picon-0633-security-lock-unlocked:before {
+	content: "\eb87";
+}
+.picon-0634-security-lock-key:before {
+	content: "\eb88";
+}
+.picon-0635-anti-virus-protection-shield:before {
+	content: "\eb89";
+}
+.picon-0636-software-bug-code-vulnerability:before {
+	content: "\eb8a";
+}
+.picon-0637-fingerprint-scan-security-access:before {
+	content: "\eb8b";
+}
+.picon-0638-network-firewall:before {
+	content: "\eb8c";
+}
+.picon-0639-safe-security-lock:before {
+	content: "\eb8d";
+}
+.picon-0640-security-lock-protected:before {
+	content: "\eb8e";
+}
+.picon-0641-police-protection-sheriff-security-badge:before {
+	content: "\eb8f";
+}
+.picon-0642-camera-video-surveillacance-security:before {
+	content: "\eb90";
+}
+.picon-0643-camera-video-surveillacance-security:before {
+	content: "\eb91";
+}
+.picon-0644-suitcase-lock-security:before {
+	content: "\eb92";
+}
+.picon-0645-atm-passcode-keypad-password-access:before {
+	content: "\eb93";
+}
+.picon-0646-secret-passcode-keypad-password-access:before {
+	content: "\eb94";
+}
+.picon-0647-fingerprint-iphone-scan-access:before {
+	content: "\eb95";
+}
+.picon-0648-secret-passcode-keypad-password-access:before {
+	content: "\eb96";
+}
+.picon-0649-secret-passcode-keypad-password-access:before {
+	content: "\eb97";
+}
+.picon-0650-gun-security-arms-police:before {
+	content: "\eb98";
+}
+.picon-0651-star-favorite-rating:before {
+	content: "\eb99";
+}
+.picon-0652-star-favorite-rating:before {
+	content: "\eb9a";
+}
+.picon-0653-like-heart-favorite-rating-love:before {
+	content: "\eb9b";
+}
+.picon-0654-unlike-heart-broken-break-love:before {
+	content: "\eb9c";
+}
+.picon-0655-like-heart-favorite-rating-love:before {
+	content: "\eb9d";
+}
+.picon-0656-medal-award-rating-prize-achievement:before {
+	content: "\eb9e";
+}
+.picon-0657-medal-award-rating-prize-achievement:before {
+	content: "\eb9f";
+}
+.picon-0658-cup-place-winner-award-prize-achievement:before {
+	content: "\eba0";
+}
+.picon-0659-medal-first-place-winner-award-prize-achievement:before {
+	content: "\eba1";
+}
+.picon-0660-shape-new-discount:before {
+	content: "\eba2";
+}
+.picon-0661-like-thumb-up-vote:before {
+	content: "\eba3";
+}
+.picon-0662-dislike-thumb-down-vote:before {
+	content: "\eba4";
+}
+.picon-0663-like-thumb-up-vote:before {
+	content: "\eba5";
+}
+.picon-0664-dislike-thumb-down-vote:before {
+	content: "\eba6";
+}
+.picon-0665-vote-ticket-paper-voting:before {
+	content: "\eba7";
+}
+.picon-0666-award-achievement-prize-medal:before {
+	content: "\eba8";
+}
+.picon-0667-star-rating-favorite-point:before {
+	content: "\eba9";
+}
+.picon-0668-up-vote-plus-higher:before {
+	content: "\ebaa";
+}
+.picon-0669-down-vote-minus-lower:before {
+	content: "\ebab";
+}
+.picon-0670-diamond-prize-award-jewellery-ring:before {
+	content: "\ebac";
+}
+.picon-0671-vector-bezier-curve-illustrator:before {
+	content: "\ebad";
+}
+.picon-0672-crop-image:before {
+	content: "\ebae";
+}
+.picon-0673-ruller-dimension-length:before {
+	content: "\ebaf";
+}
+.picon-0674-cut-scissors:before {
+	content: "\ebb0";
+}
+.picon-0675-paint-brush-color:before {
+	content: "\ebb1";
+}
+.picon-0676-eyedropper-color:before {
+	content: "\ebb2";
+}
+.picon-0677-color-wheel-rgb:before {
+	content: "\ebb3";
+}
+.picon-0678-pen-writting-fontain:before {
+	content: "\ebb4";
+}
+.picon-0679-paint-brush:before {
+	content: "\ebb5";
+}
+.picon-0680-pencil-ruller-drawing:before {
+	content: "\ebb6";
+}
+.picon-0681-drawing-board-canvas-table:before {
+	content: "\ebb7";
+}
+.picon-0682-pencil:before {
+	content: "\ebb8";
+}
+.picon-0683-pen:before {
+	content: "\ebb9";
+}
+.picon-0684-paint-brush:before {
+	content: "\ebba";
+}
+.picon-0685-marker-text:before {
+	content: "\ebbb";
+}
+.picon-0686-cut-knife:before {
+	content: "\ebbc";
+}
+.picon-0687-pantone-color-guide-samples-book:before {
+	content: "\ebbd";
+}
+.picon-0688-paint-bucket-color:before {
+	content: "\ebbe";
+}
+.picon-0689-paint-bucket-color:before {
+	content: "\ebbf";
+}
+.picon-0690-spray-color:before {
+	content: "\ebc0";
+}
+.picon-0691-wall-paint-color:before {
+	content: "\ebc1";
+}
+.picon-0692-paper-layers:before {
+	content: "\ebc2";
+}
+.picon-0693-reflect-vertical:before {
+	content: "\ebc3";
+}
+.picon-0694-reflect-horizontal:before {
+	content: "\ebc4";
+}
+.picon-0695-pathfinder-shapes-minus-back:before {
+	content: "\ebc5";
+}
+.picon-0696-pathfinder-shapes-unite:before {
+	content: "\ebc6";
+}
+.picon-0697-pathfinder-shapes-exclude:before {
+	content: "\ebc7";
+}
+.picon-0698-pathfinder-shapes-intersect:before {
+	content: "\ebc8";
+}
+.picon-0699-user-profile-avatar-man-male:before {
+	content: "\ebc9";
+}
+.picon-0700-user-profile-avatar-woman-female:before {
+	content: "\ebca";
+}
+.picon-0701-user-profile-avatar-man-male:before {
+	content: "\ebcb";
+}
+.picon-0702-user-profile-avatar-woman-female:before {
+	content: "\ebcc";
+}
+.picon-0703-users-profile-group-two:before {
+	content: "\ebcd";
+}
+.picon-0704-users-profile-group-couple-man-woman:before {
+	content: "\ebce";
+}
+.picon-0705-user-profile-security-password-permissions:before {
+	content: "\ebcf";
+}
+.picon-0706-user-profile-add-new:before {
+	content: "\ebd0";
+}
+.picon-0707-user-profile-remove-delete:before {
+	content: "\ebd1";
+}
+.picon-0708-user-profile:before {
+	content: "\ebd2";
+}
+.picon-0709-user-profile-avatar-man-male:before {
+	content: "\ebd3";
+}
+.picon-0710-business-tie-user-profile-avatar-man-male:before {
+	content: "\ebd4";
+}
+.picon-0711-young-boy-user-profile-avatar-man-male:before {
+	content: "\ebd5";
+}
+.picon-0712-user-profile-avatar-girl-woman-female:before {
+	content: "\ebd6";
+}
+.picon-0713-user-profile-back-tag:before {
+	content: "\ebd7";
+}
+.picon-0714-identity-card-photo-user-profile:before {
+	content: "\ebd8";
+}
+.picon-0715-contact-archive-identity-card-photo-user-profile:before {
+	content: "\ebd9";
+}
+.picon-0716-user-profile-add-new:before {
+	content: "\ebda";
+}
+.picon-0717-user-profile-remove-delete:before {
+	content: "\ebdb";
+}
+.picon-0718-user-profile-successful-check-verified:before {
+	content: "\ebdc";
+}
+.picon-0719-group-users-circle:before {
+	content: "\ebdd";
+}
+.picon-0720-user-location-position:before {
+	content: "\ebde";
+}
+.picon-0721-identity-card-photo-tag-user-profile:before {
+	content: "\ebdf";
+}
+.picon-0722-profile-user-search-find:before {
+	content: "\ebe0";
+}
+.picon-0723-nurse-medicine-hospital-doctor:before {
+	content: "\ebe1";
+}
+.picon-0724-policeman-security:before {
+	content: "\ebe2";
+}
+.picon-0725-fireman-fire:before {
+	content: "\ebe3";
+}
+.picon-0726-doctor-surgery-hospital:before {
+	content: "\ebe4";
+}
+.picon-0727-detective-criminal-sherlock-investigation:before {
+	content: "\ebe5";
+}
+.picon-0728-construction-worker-site-helmet-safety:before {
+	content: "\ebe6";
+}
+.picon-0729-student-degree-science-university-school-graduate:before {
+	content: "\ebe7";
+}
+.picon-0730-support-male-phone:before {
+	content: "\ebe8";
+}
+.picon-0731-support-female-phone:before {
+	content: "\ebe9";
+}
+.picon-0732-polution-ecology-factory:before {
+	content: "\ebea";
+}
+.picon-0733-polution-ecology-factory:before {
+	content: "\ebeb";
+}
+.picon-0734-polution-oil:before {
+	content: "\ebec";
+}
+.picon-0735-polution-oil-refinery:before {
+	content: "\ebed";
+}
+.picon-0736-polution-co2-emissions:before {
+	content: "\ebee";
+}
+.picon-0737-fuel-petrol-tank-reserve-car:before {
+	content: "\ebef";
+}
+.picon-0738-polution-sea-water-dead-fish:before {
+	content: "\ebf0";
+}
+.picon-0739-electricity-high-voltage-landline:before {
+	content: "\ebf1";
+}
+.picon-0740-water-hydrant-fire:before {
+	content: "\ebf2";
+}
+.picon-0741-water-pipe-drink:before {
+	content: "\ebf3";
+}
+.picon-0742-wind-energy-power-turbines:before {
+	content: "\ebf4";
+}
+.picon-0743-sun-energy-power-electricity:before {
+	content: "\ebf5";
+}
+.picon-0744-sun-clouds-weather:before {
+	content: "\ebf6";
+}
+.picon-0745-home-energy-efficient-eco:before {
+	content: "\ebf7";
+}
+.picon-0746-home-energy-efficient-eco:before {
+	content: "\ebf8";
+}
+.picon-0747-home-energy-heating-cooling-aircondition:before {
+	content: "\ebf9";
+}
+.picon-0748-home-energy-heating-winter-fire:before {
+	content: "\ebfa";
+}
+.picon-0749-ecology-earth-polution-efficiency-green-energy:before {
+	content: "\ebfb";
+}
+.picon-0750-ecology-earth-clean-green-energy:before {
+	content: "\ebfc";
+}
+.picon-0751-rechargeable-batteries-recycling:before {
+	content: "\ebfd";
+}
+.picon-0752-ecology-car-clean-green-energy:before {
+	content: "\ebfe";
+}
+.picon-0753-electro-hybrid-tesla-ecology-car-clean-green-energy:before {
+	content: "\ebff";
+}
+.picon-0754-electro-hybrid-tesla-ecology-car-clean-green-energy:before {
+	content: "\ec00";
+}
+.picon-0755-ecology-environment-forest-tree-green-park:before {
+	content: "\ec01";
+}
+.picon-0756-ecology-environment-forest-tree-green-park:before {
+	content: "\ec02";
+}
+.picon-0757-ecology-environment-green:before {
+	content: "\ec03";
+}
+.picon-0758-energy-efficiency-saving-light:before {
+	content: "\ec04";
+}
+.picon-0759-energy-efficiency-saving-light:before {
+	content: "\ec05";
+}
+.picon-0760-weather-sun-summer:before {
+	content: "\ec06";
+}
+.picon-0761-weather-cloud:before {
+	content: "\ec07";
+}
+.picon-0762-weather-rain-cloud:before {
+	content: "\ec08";
+}
+.picon-0763-weather-moon-stars-night-sleep:before {
+	content: "\ec09";
+}
+.picon-0764-weather-rain-water-drop:before {
+	content: "\ec0a";
+}
+.picon-0765-weather-rain-umbrella:before {
+	content: "\ec0b";
+}
+.picon-0766-weather-snow-flake-winter:before {
+	content: "\ec0c";
+}
+.picon-0767-weather-wind:before {
+	content: "\ec0d";
+}
+.picon-0768-weather-tornado-typhoon-wind:before {
+	content: "\ec0e";
+}
+.picon-0769-weather-cloud-sun:before {
+	content: "\ec0f";
+}
+.picon-0770-park-bench-rest-tree-forest:before {
+	content: "\ec10";
+}
+.picon-0771-park-tree-forest:before {
+	content: "\ec11";
+}
+.picon-0772-park-tree-forest:before {
+	content: "\ec12";
+}
+.picon-0773-flower:before {
+	content: "\ec13";
+}
+.picon-0774-maple-leaf-canada-tree:before {
+	content: "\ec14";
+}
+.picon-0775-leaf-nature-bio-green:before {
+	content: "\ec15";
+}
+.picon-0776-camping-cooking-outside-fireplace:before {
+	content: "\ec16";
+}
+.picon-0777-camping-fire-fireplace:before {
+	content: "\ec17";
+}
+.picon-0778-fire-fireplace:before {
+	content: "\ec18";
+}
+.picon-0779-wood-ax:before {
+	content: "\ec19";
+}
+.picon-0780-camping-tent:before {
+	content: "\ec1a";
+}
+.picon-0781-camping-director-fisherman-chair:before {
+	content: "\ec1b";
+}
+.picon-0782-lighter-fire-zippo:before {
+	content: "\ec1c";
+}
+.picon-0783-swiss-army-knife-camping:before {
+	content: "\ec1d";
+}
+.picon-0784-army-knife-jungle:before {
+	content: "\ec1e";
+}
+.picon-0785-mountains-nature:before {
+	content: "\ec1f";
+}
+.picon-0786-basecamp-alps-mountains-cabin:before {
+	content: "\ec20";
+}
+.picon-0787-mountains-nature:before {
+	content: "\ec21";
+}
+.picon-0788-gondola-lift-mountains:before {
+	content: "\ec22";
+}
+.picon-0789-mountaineering:before {
+	content: "\ec23";
+}
+.picon-0790-acorn-forest-fruit:before {
+	content: "\ec24";
+}
+.picon-0791-mushroom-forest-fruit:before {
+	content: "\ec25";
+}
+.picon-0792-archery-bow:before {
+	content: "\ec26";
+}
+.picon-0793-archery-bow:before {
+	content: "\ec27";
+}
+.picon-0794-horseshoe-luck:before {
+	content: "\ec28";
+}
+.picon-0795-canoeing-rowing-wild-river:before {
+	content: "\ec29";
+}
+.picon-0796-nature-green-sprout-plant:before {
+	content: "\ec2a";
+}
+.picon-0797-flowers-plant:before {
+	content: "\ec2b";
+}
+.picon-0798-leaf-tree-forest:before {
+	content: "\ec2c";
+}
+.picon-0799-leaf-tree-forest:before {
+	content: "\ec2d";
+}
+.picon-0800-leaf-plant-sprout-green:before {
+	content: "\ec2e";
+}
+.picon-0801-shovel-ground:before {
+	content: "\ec2f";
+}
+.picon-0802-plant-watering:before {
+	content: "\ec30";
+}
+.picon-0803-wheelbarrow-farming:before {
+	content: "\ec31";
+}
+.picon-0804-wheelbarrow-full:before {
+	content: "\ec32";
+}
+.picon-0805-tractor-farming:before {
+	content: "\ec33";
+}
+.picon-0806-gate-farm:before {
+	content: "\ec34";
+}
+.picon-0807-bees-honey:before {
+	content: "\ec35";
+}
+.picon-0808-bird-house-twitter:before {
+	content: "\ec36";
+}
+.picon-0809-snail-shell-house-nautilus:before {
+	content: "\ec37";
+}
+.picon-0810-heart-pulse-rate-health:before {
+	content: "\ec38";
+}
+.picon-0811-medicine-health-injection-ill:before {
+	content: "\ec39";
+}
+.picon-0812-medicine-patch-injury:before {
+	content: "\ec3a";
+}
+.picon-0813-heart-vitals-pulse-rate-health:before {
+	content: "\ec3b";
+}
+.picon-0814-kidney-internal-body-part:before {
+	content: "\ec3c";
+}
+.picon-0815-lungs-breathing:before {
+	content: "\ec3d";
+}
+.picon-0816-microscope-laboratory:before {
+	content: "\ec3e";
+}
+.picon-0817-tube-laboratory-chemistry:before {
+	content: "\ec3f";
+}
+.picon-0818-poison-pills-drugs:before {
+	content: "\ec40";
+}
+.picon-0819-poison-deathly-medicine:before {
+	content: "\ec41";
+}
+.picon-0820-medicine-drugs-ill-pill:before {
+	content: "\ec42";
+}
+.picon-0821-blood-infusion:before {
+	content: "\ec43";
+}
+.picon-0822-blood-infusion:before {
+	content: "\ec44";
+}
+.picon-0823-hospital-ill-medicine-doctor-ambulance:before {
+	content: "\ec45";
+}
+.picon-0824-fever-body-temperature-ill:before {
+	content: "\ec46";
+}
+.picon-0825-stetoscope-doctor-hospital-ill:before {
+	content: "\ec47";
+}
+.picon-0826-teeth-tooth-dental:before {
+	content: "\ec48";
+}
+.picon-0827-body-weight-fitness-health-fat:before {
+	content: "\ec49";
+}
+.picon-0828-basket-ball-sports:before {
+	content: "\ec4a";
+}
+.picon-0829-golf-course-sports:before {
+	content: "\ec4b";
+}
+.picon-0830-table-tennis-ping-pong-sports:before {
+	content: "\ec4c";
+}
+.picon-0831-basket-ball-sports:before {
+	content: "\ec4d";
+}
+.picon-0832-football-stadium-green-court-sports:before {
+	content: "\ec4e";
+}
+.picon-0833-referee-whistle:before {
+	content: "\ec4f";
+}
+.picon-0834-ragby-amercian-football-sports:before {
+	content: "\ec50";
+}
+.picon-0835-football-soccer-sports:before {
+	content: "\ec51";
+}
+.picon-0836-baseball-sports:before {
+	content: "\ec52";
+}
+.picon-0837-baseball-tennis-ball-sports:before {
+	content: "\ec53";
+}
+.picon-0838-watch-heart-fitness-running-tracker:before {
+	content: "\ec54";
+}
+.picon-0839-apple-watch-heart-fitness-running-tracker:before {
+	content: "\ec55";
+}
+.picon-0840-apple-watch-heart-fitness-running-tracker:before {
+	content: "\ec56";
+}
+.picon-0841-apple-watch-music-song-fitness:before {
+	content: "\ec57";
+}
+.picon-0842-fitness-running:before {
+	content: "\ec58";
+}
+.picon-0843-fitness-cycling:before {
+	content: "\ec59";
+}
+.picon-0844-stopwatch-training-time:before {
+	content: "\ec5a";
+}
+.picon-0845-fitness-weight-gym-lifting-bodybuilding-training:before {
+	content: "\ec5b";
+}
+.picon-0846-fitness-cycle-hometrainer-calories-training:before {
+	content: "\ec5c";
+}
+.picon-0847-fitness-running-calories-training:before {
+	content: "\ec5d";
+}
+.picon-0848-shoes-gear-fitness-running:before {
+	content: "\ec5e";
+}
+.picon-0849-water-training-hydration:before {
+	content: "\ec5f";
+}
+.picon-0850-eating-spoon-fork-knife:before {
+	content: "\ec60";
+}
+.picon-0851-cooking:before {
+	content: "\ec61";
+}
+.picon-0852-tea-coffee-hot:before {
+	content: "\ec62";
+}
+.picon-0853-coffee-to-go-starbucks:before {
+	content: "\ec63";
+}
+.picon-0854-milk-tetra-pak:before {
+	content: "\ec64";
+}
+.picon-0855-martini-cocktail-drink:before {
+	content: "\ec65";
+}
+.picon-0856-vine-glass-drink:before {
+	content: "\ec66";
+}
+.picon-0857-soda-glass-drink:before {
+	content: "\ec67";
+}
+.picon-0858-soda-glass-drink:before {
+	content: "\ec68";
+}
+.picon-0859-margarita-cocktail-drink:before {
+	content: "\ec69";
+}
+.picon-0860-vine-glass-drink:before {
+	content: "\ec6a";
+}
+.picon-0861-vine-glass-drink:before {
+	content: "\ec6b";
+}
+.picon-0862-soda-coke-pepsi-can:before {
+	content: "\ec6c";
+}
+.picon-0863-fruit-ice-desert-glass:before {
+	content: "\ec6d";
+}
+.picon-0864-beer:before {
+	content: "\ec6e";
+}
+.picon-0865-fish-sea:before {
+	content: "\ec6f";
+}
+.picon-0866-sausage-meat:before {
+	content: "\ec70";
+}
+.picon-0867-cheese:before {
+	content: "\ec71";
+}
+.picon-0868-chicken-turkey:before {
+	content: "\ec72";
+}
+.picon-0869-salad-bowl:before {
+	content: "\ec73";
+}
+.picon-0870-restaurant-menu-offer:before {
+	content: "\ec74";
+}
+.picon-0871-meal-eating-restaurant-offer:before {
+	content: "\ec75";
+}
+.picon-0872-cook-chef-restaurant-kitchen:before {
+	content: "\ec76";
+}
+.picon-0873-apron-cook-chef-kitchen:before {
+	content: "\ec77";
+}
+.picon-0874-handgloves-hot-kitchen-utensils:before {
+	content: "\ec78";
+}
+.picon-0875-glass-fork-knife-restaurant-food:before {
+	content: "\ec79";
+}
+.picon-0876-knife-fork-knife-restaurant-food:before {
+	content: "\ec7a";
+}
+.picon-0877-salt-pepper-spices:before {
+	content: "\ec7b";
+}
+.picon-0878-chineese-thai-food-bowl:before {
+	content: "\ec7c";
+}
+.picon-0879-cooking-pan-heating:before {
+	content: "\ec7d";
+}
+.picon-0880-grater-kitchen-utensils:before {
+	content: "\ec7e";
+}
+.picon-0881-whisk-kitchen-utensils:before {
+	content: "\ec7f";
+}
+.picon-0882-spatula-kitchen-utensils:before {
+	content: "\ec80";
+}
+.picon-0883-spatula-kitchen-utensils:before {
+	content: "\ec81";
+}
+.picon-0884-cheese-knife-slicer-kitchen-utensils:before {
+	content: "\ec82";
+}
+.picon-0885-meat-chopper-kitchen-utensils:before {
+	content: "\ec83";
+}
+.picon-0886-pizza-knife-slicer-kitchen-utensils:before {
+	content: "\ec84";
+}
+.picon-0887-knife-kitchen-utensils:before {
+	content: "\ec85";
+}
+.picon-0888-big-spoon-soup-kitchen-utensils:before {
+	content: "\ec86";
+}
+.picon-0889-bottle-opener-kitchen-utensils:before {
+	content: "\ec87";
+}
+.picon-0890-toaster-kitchen-appliances:before {
+	content: "\ec88";
+}
+.picon-0891-cooking-hob-kitchen-appliances:before {
+	content: "\ec89";
+}
+.picon-0892-cooking-oven-kitchen-appliances:before {
+	content: "\ec8a";
+}
+.picon-0893-microwave-oven-kitchen-appliances:before {
+	content: "\ec8b";
+}
+.picon-0894-scale-weight-kitchen-appliances:before {
+	content: "\ec8c";
+}
+.picon-0895-egg-timer-cooking-kitchen-utensils:before {
+	content: "\ec8d";
+}
+.picon-0896-measuring-cup-kitchen-utensils:before {
+	content: "\ec8e";
+}
+.picon-0897-no-drinking-forbidden:before {
+	content: "\ec8f";
+}
+.picon-0898-no-food-eating-forbidden:before {
+	content: "\ec90";
+}
+.picon-0899-no-cereals-grains:before {
+	content: "\ec91";
+}
+.picon-0900-carrot-vegetable:before {
+	content: "\ec92";
+}
+.picon-0901-cherry-fruit:before {
+	content: "\ec93";
+}
+.picon-0902-wine-grapes:before {
+	content: "\ec94";
+}
+.picon-0903-orange-peach-fruit:before {
+	content: "\ec95";
+}
+.picon-0904-apple-fruit:before {
+	content: "\ec96";
+}
+.picon-0905-pear-fruit:before {
+	content: "\ec97";
+}
+.picon-0906-lemon-lime-fruit:before {
+	content: "\ec98";
+}
+.picon-0907-orange-lemon-lime-citrus-fruit:before {
+	content: "\ec99";
+}
+.picon-0908-strawberry-fruit:before {
+	content: "\ec9a";
+}
+.picon-0909-hamburger-fast-food:before {
+	content: "\ec9b";
+}
+.picon-0910-ketchup-fast-food:before {
+	content: "\ec9c";
+}
+.picon-0911-popcorn-cinema:before {
+	content: "\ec9d";
+}
+.picon-0912-hotdog-fast-food:before {
+	content: "\ec9e";
+}
+.picon-0913-pizza-slice:before {
+	content: "\ec9f";
+}
+.picon-0914-cake-birthday-anniversary:before {
+	content: "\eca0";
+}
+.picon-0915-cake-birthday-anniversary:before {
+	content: "\eca1";
+}
+.picon-0916-ice-cream-stick:before {
+	content: "\eca2";
+}
+.picon-0917-ice-cream-corn:before {
+	content: "\eca3";
+}
+.picon-0918-cupcake-desert-sweets:before {
+	content: "\eca4";
+}
+.picon-0919-donut-doughnut-cookie-desert-sweets:before {
+	content: "\eca5";
+}
+.picon-0920-french-croissant-breakfast-sweets:before {
+	content: "\eca6";
+}
+.picon-0921-marmalade-breakfast:before {
+	content: "\eca7";
+}
+.picon-0922-honey:before {
+	content: "\eca8";
+}
+.picon-0923-egg-breakfast:before {
+	content: "\eca9";
+}
+.picon-0924-coffee-beans-hand-grinder:before {
+	content: "\ecaa";
+}
+.picon-0925-coffee-beans:before {
+	content: "\ecab";
+}
+.picon-0926-water-boiler:before {
+	content: "\ecac";
+}
+.picon-0927-grill-charcoal-barbecue-bbq:before {
+	content: "\ecad";
+}
+.picon-0928-grill-fire-charcoal-barbecue-bbq:before {
+	content: "\ecae";
+}
+.picon-0929-grill-charcoal-barbecue-bbq:before {
+	content: "\ecaf";
+}
+.picon-0930-grill-sausage-bbq:before {
+	content: "\ecb0";
+}
+.picon-0931-grill-t-bone-steak-bbq:before {
+	content: "\ecb1";
+}
+.picon-0932-sofa-armchair:before {
+	content: "\ecb2";
+}
+.picon-0933-table-reading-light:before {
+	content: "\ecb3";
+}
+.picon-0934-archive-shelves-sideboard:before {
+	content: "\ecb4";
+}
+.picon-0935-wardrobe-shelves:before {
+	content: "\ecb5";
+}
+.picon-0936-book-wall-shelf:before {
+	content: "\ecb6";
+}
+.picon-0937-plant-green-decoration:before {
+	content: "\ecb7";
+}
+.picon-0938-tree-decoration-christmas-new-year-lights:before {
+	content: "\ecb8";
+}
+.picon-0939-candle-christmas-light:before {
+	content: "\ecb9";
+}
+.picon-0940-hammer-home-utilities:before {
+	content: "\ecba";
+}
+.picon-0941-safety-pin:before {
+	content: "\ecbb";
+}
+.picon-0942-hotel-room-tag:before {
+	content: "\ecbc";
+}
+.picon-0943-mustache-movember-men:before {
+	content: "\ecbd";
+}
+.picon-0944-t-shirt:before {
+	content: "\ecbe";
+}
+.picon-0945-foot-shoe-steps:before {
+	content: "\ecbf";
+}
+.picon-0946-animal-foot-steps:before {
+	content: "\ecc0";
+}
+.picon-0947-power-on-off:before {
+	content: "\ecc1";
+}
+.picon-0948-socket-power-electricity-plug:before {
+	content: "\ecc2";
+}
+.picon-0949-plug-power-electricity:before {
+	content: "\ecc3";
+}
+.picon-0950-light-bulb-idea:before {
+	content: "\ecc4";
+}
+.picon-0951-flashlight:before {
+	content: "\ecc5";
+}
+.picon-0952-thermometer-temperature-hot:before {
+	content: "\ecc6";
+}
+.picon-0953-thermometer-temperature-cold:before {
+	content: "\ecc7";
+}
+.picon-0954-air-conditioner-temperature:before {
+	content: "\ecc8";
+}
+.picon-0955-air-ventilator-flow:before {
+	content: "\ecc9";
+}
+.picon-0956-bath-shower:before {
+	content: "\ecca";
+}
+.picon-0957-bathtub-shower:before {
+	content: "\eccb";
+}
+.picon-0958-bathtub:before {
+	content: "\eccc";
+}
+.picon-0959-city-flat-homes:before {
+	content: "\eccd";
+}
+.picon-0960-city-house-home:before {
+	content: "\ecce";
+}
+.picon-0961-city-skyscraper-flat:before {
+	content: "\eccf";
+}
+.picon-0962-home-plant-door:before {
+	content: "\ecd0";
+}
+.picon-0963-plant-green:before {
+	content: "\ecd1";
+}
+.picon-0964-bonsai-tree-plant-green:before {
+	content: "\ecd2";
+}
+.picon-0965-sofa-living-room:before {
+	content: "\ecd3";
+}
+.picon-0966-arm-chair-office:before {
+	content: "\ecd4";
+}
+.picon-0967-table-desk:before {
+	content: "\ecd5";
+}
+.picon-0968-bookshelf-sideboard:before {
+	content: "\ecd6";
+}
+.picon-0969-chest-drawers-sideboard:before {
+	content: "\ecd7";
+}
+.picon-0970-bed:before {
+	content: "\ecd8";
+}
+.picon-0971-tv-shelf:before {
+	content: "\ecd9";
+}
+.picon-0972-light-stand-arc:before {
+	content: "\ecda";
+}
+.picon-0973-morning-alarm-clock:before {
+	content: "\ecdb";
+}
+.picon-0974-vacuum-cleaner:before {
+	content: "\ecdc";
+}
+.picon-0975-cleaning-spray-gun:before {
+	content: "\ecdd";
+}
+.picon-0976-paper-towel:before {
+	content: "\ecde";
+}
+.picon-0977-fish-bowl-goldfish:before {
+	content: "\ecdf";
+}
+.picon-0978-family-relationship-father-mother-child:before {
+	content: "\ece0";
+}
+.picon-0979-family-relationship-mother-child:before {
+	content: "\ece1";
+}
+.picon-0980-relationship-couple-love-marriage:before {
+	content: "\ece2";
+}
+.picon-0981-relationship-couple-love-break-divorce:before {
+	content: "\ece3";
+}
+.picon-0982-relationship-ring-love-marriage-engage-fiance:before {
+	content: "\ece4";
+}
+.picon-0983-child-baby-stroller:before {
+	content: "\ece5";
+}
+.picon-0984-child-toy-playground-horse:before {
+	content: "\ece6";
+}
+.picon-0985-child-baby-toys:before {
+	content: "\ece7";
+}
+.picon-0986-t-shirt:before {
+	content: "\ece8";
+}
+.picon-0987-shirt-tie:before {
+	content: "\ece9";
+}
+.picon-0988-long-sleeves-shirt:before {
+	content: "\ecea";
+}
+.picon-0989-long-sleeves-shirt:before {
+	content: "\eceb";
+}
+.picon-0990-short-pants-shorts-bermudas:before {
+	content: "\ecec";
+}
+.picon-0991-pants:before {
+	content: "\eced";
+}
+.picon-0992-skirt:before {
+	content: "\ecee";
+}
+.picon-0993-dress:before {
+	content: "\ecef";
+}
+.picon-0994-underwear:before {
+	content: "\ecf0";
+}
+.picon-0995-socks:before {
+	content: "\ecf1";
+}
+.picon-0996-baseball-cap:before {
+	content: "\ecf2";
+}
+.picon-0997-cap-hat-beanie:before {
+	content: "\ecf3";
+}
+.picon-0998-women-high-heels-shoe:before {
+	content: "\ecf4";
+}
+.picon-0999-sneakers-freetime-shoe:before {
+	content: "\ecf5";
+}
+.picon-1000-boots-high-shoe:before {
+	content: "\ecf6";
+}
+.picon-1001-no-ironing:before {
+	content: "\ecf7";
+}
+.picon-1002-steam-ironing:before {
+	content: "\ecf8";
+}
+.picon-1003-steam-ironing:before {
+	content: "\ecf9";
+}
+.picon-1004-no-dryer:before {
+	content: "\ecfa";
+}
+.picon-1005-washing-machine:before {
+	content: "\ecfb";
+}
+.picon-1006-puzzle-module-part:before {
+	content: "\ecfc";
+}
+.picon-1007-chess-crown-queen:before {
+	content: "\ecfd";
+}
+.picon-1008-gamepad-video-game-playing:before {
+	content: "\ecfe";
+}
+.picon-1009-bowling-ball-pins:before {
+	content: "\ecff";
+}
+.picon-1010-archery-target-shooting:before {
+	content: "\ed00";
+}
+.picon-1011-holiday-seaside-relax:before {
+	content: "\ed01";
+}
+.picon-1012-drums-playing-sound:before {
+	content: "\ed02";
+}
+.picon-1013-abacus-math-calculator-school:before {
+	content: "\ed03";
+}
+.picon-1014-cards-playing-poker-casino:before {
+	content: "\ed04";
+}
+.picon-1015-playing-dice-casino:before {
+	content: "\ed05";
+}
+.picon-1016-pacman-game:before {
+	content: "\ed06";
+}
+.picon-1017-pacman-enemy-game:before {
+	content: "\ed07";
+}
+.picon-1018-coffin:before {
+	content: "\ed08";
+}
+.picon-1019-domino-numbers-game:before {
+	content: "\ed09";
+}
+.picon-1020-baloons-party-birthday:before {
+	content: "\ed0a";
+}
+.picon-1021-masks-theater-play:before {
+	content: "\ed0b";
+}
+.picon-1022-chess-horse-game:before {
+	content: "\ed0c";
+}
+.picon-1023-billiard-cue-balls-pool:before {
+	content: "\ed0d";
+}
+.picon-1024-guitar-playing-music-band:before {
+	content: "\ed0e";
+}
+.picon-1025-seashell:before {
+	content: "\ed0f";
+}
+.picon-1026-submarine-underwater-sea-diving:before {
+	content: "\ed10";
+}
+.picon-1027-diving-mask-gear-sea-underwater:before {
+	content: "\ed11";
+}
+.picon-1028-sea-waves:before {
+	content: "\ed12";
+}
+.picon-1029-bikini-swimwear:before {
+	content: "\ed13";
+}
+.picon-1030-hat:before {
+	content: "\ed14";
+}
+.picon-1031-flipflops:before {
+	content: "\ed15";
+}
+.picon-1032-sunglasses:before {
+	content: "\ed16";
+}
+.picon-1033-atom-nuclear-learning-physics:before {
+	content: "\ed17";
+}
+.picon-1034-lab-chemistry-experiment:before {
+	content: "\ed18";
+}
+.picon-1035-bomb:before {
+	content: "\ed19";
+}
+.picon-1036-brain-thinking-mind-knowledge:before {
+	content: "\ed1a";
+}
+.picon-1037-brain-thinking-mind-knowledge:before {
+	content: "\ed1b";
+}
+.picon-1038-study-university-school-degree-graduate:before {
+	content: "\ed1c";
+}
+.picon-1039-brain-thinking-mind-knowledge:before {
+	content: "\ed1d";
+}
+.picon-1040-mathematics-root-equation:before {
+	content: "\ed1e";
+}
+.picon-1041-mathematics-curve-coordinate-system:before {
+	content: "\ed1f";
+}
+.picon-1042-3d-dimensions-object-coordinate-system:before {
+	content: "\ed20";
+}
+.picon-1043-mathematics-calculate-add-subtract-divide-multiply:before {
+	content: "\ed21";
+}
+.picon-1044-space-shuttle-aircraft-nasa-rocket:before {
+	content: "\ed22";
+}
+.picon-1045-space-moon-planet-galaxy-saturn:before {
+	content: "\ed23";
+}
+.picon-1046-telescope-astronomy-stars-space-galaxy:before {
+	content: "\ed24";
+}
+.picon-1047-alien:before {
+	content: "\ed25";
+}
+.picon-1048-spaceship-alien:before {
+	content: "\ed26";
+}

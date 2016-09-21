@@ -1,0 +1,7 @@
+main .row.vc_row .wpb_column.vc_column_container.vc_col-sm-12 {
+    position: static;
+}
+main .vc_row.container {
+    margin-right: auto;
+    margin-left: auto;
+}
